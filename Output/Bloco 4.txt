@@ -1,0 +1,100 @@
+{
+    "documents": [
+        {
+            "id": "id__1772",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.65,
+                "neutral": 0,
+                "negative": 0.35
+            },
+            "sentences": [
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.3,
+                        "neutral": 0,
+                        "negative": 0.7
+                    },
+                    "offset": 0,
+                    "length": 81,
+                    "text": "O aplicativo tem uma interface bonita e fácil de usar, mas trava com frequência. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.03,
+                                "negative": 0.97
+                            },
+                            "offset": 2,
+                            "length": 10,
+                            "text": "aplicativo",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 21,
+                            "length": 9,
+                            "text": "interface",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.03,
+                                "negative": 0.97
+                            },
+                            "offset": 59,
+                            "length": 5,
+                            "text": "trava",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 31,
+                            "length": 6,
+                            "text": "bonita",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 81,
+                    "length": 47,
+                    "text": "Se corrigirem isso, tem tudo pra ser excelente.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2025-01-01"
+}

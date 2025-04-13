@@ -1,0 +1,86 @@
+{
+    "documents": [
+        {
+            "id": "id__1922",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.66,
+                "neutral": 0.01,
+                "negative": 0.33
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0.01,
+                        "negative": 0
+                    },
+                    "offset": 0,
+                    "length": 22,
+                    "text": "Nossa, que maravilha! ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 22,
+                    "length": 75,
+                    "text": "Só esperei duas horas na fila pra ser atendido e ainda erraram meu pedido. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.98,
+                        "neutral": 0.02,
+                        "negative": 0
+                    },
+                    "offset": 97,
+                    "length": 36,
+                    "text": "Um atendimento exemplar, sem dúvida.",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 100,
+                            "length": 11,
+                            "text": "atendimento",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/2/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 112,
+                            "length": 8,
+                            "text": "exemplar",
+                            "isNegated": false
+                        }
+                    ]
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2025-01-01"
+}
